@@ -1,0 +1,212 @@
+body { 
+    margin:0;
+    padding:0;
+    font-family: 'Yeon Sung', cursive;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    padding-top: 30px;
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.navbar-nav{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.navbar{
+    min-height:32px;
+}
+
+.carousel-item .carousel-caption h4 {
+    color: Black;
+    vertical-align:middle;
+    font-size: 3.5em;
+    line-height: 2em;
+    height: 5em;
+    display: table;
+    margin:auto;
+}
+
+html {
+  font-size: 14px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+h2.head heada {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#navb{
+    padding:0 0 0 30px;
+    border-radius: 2px;
+}
+
+.image{
+    width: 100%;
+    height: 280px;
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+.welcome{
+    margin-top: 30px;
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef; 
+    height:100%;
+}
+
+#side{
+    background-color: #98198;
+
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 14px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+
+#footer{
+    padding: 20px;
+    margin-top: 5px;
+}
+
+
+
+.fa-heart:hover {
+	background-color:red;
+}
+
+.fa-google-plus:hover {
+	color:red;
+}
+

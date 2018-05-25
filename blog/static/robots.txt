@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+User-agent: Googlebot
+Allow: /admin/*
+User-agent: Slurp
+Allow: /admin/*
+User-Agent: msnbot
+Disallow: /admin/*
