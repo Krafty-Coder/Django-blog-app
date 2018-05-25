@@ -4,6 +4,10 @@ staticfiles
 .env
 krafty/settings.py
 
+# json files
+blog/static/images/package.json
+blog/static/images/package-lock.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
