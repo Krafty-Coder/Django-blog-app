@@ -1,5 +1,6 @@
 # krafty blog app
 Krafty blog app
+A responsive website app for the kraftycoder blog website... Soon to launch, This is part of the code used. Contributors are highly welcome
 
 http://krafty.herokuapp.com
 
